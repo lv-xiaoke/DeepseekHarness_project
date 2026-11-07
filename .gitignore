@@ -1,0 +1,27 @@
+# Upstream source checkout
+/pi/
+
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+/.pi/agent/
+/.pi/sessions/
+/.pi/auth.json
+/.pi/settings.local.json
+
+# Local traces and caches
+/events.jsonl
+/runs/
+*.log
+/.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
